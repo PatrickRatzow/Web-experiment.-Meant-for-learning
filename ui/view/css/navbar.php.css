@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgb(38, 35, 37);
+  border-radius: 0px;
+  border-color: rgb(42, 40, 41);
+  margin-bottom: 5px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: -0px !important;
+  color: rgb(220, 220, 220);
+  background-color: transparent;
+  transition: color 0.1s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: color 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand:hover {
+  color: white;
+  background-color: rgb(72, 70, 71);
+}
+.navbar-default .navbar-nav>li>a {
+  color: rgb(180, 180, 180);
+  background-color: transparent;
+  transition: background-color 0.1s, color 0.1s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: background-color 0.1s, color 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: rgb(72, 70, 71);
+  color: rgb(255, 255, 255);
+}
+
+body {
+  padding-bottom: 50px !important;
+}

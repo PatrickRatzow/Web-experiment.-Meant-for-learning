@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+.registerbox {
+    background-color: rgb(55, 67, 85);
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    color: rgb(237, 238, 235);
+    border-radius: 6px;
+    margin-top: 40px;
+    width: auto;
+    min-height: 150px;
+    max-height: 450px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.registerbox-title {
+    color: inherit;
+    padding-top: 2.5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+}
+
+.registerbox-forms {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.registerbox-form {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgb(52, 73, 94);
+    border: 1px solid rgb(64, 86, 108);
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.registerbox-formContent {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.registerbox-formTitle {
+    color: rgb(200, 200, 200);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.registerbox-formSubmit {
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgb(58, 81, 102);
+    color: rgb(225, 228, 231);
+    border: 1px solid rgb(64, 86, 108);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 12.5px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: background-color 0.1s, color 0.1s, border 0.1s, border-radius 0.2s;
+}
+
+.registerbox-formSubmit:hover {
+    background-color: rgb(52, 73, 94);
+    border: 1px solid rgb(58, 81, 102);
+    color: rgb(248, 250, 252);
+}
