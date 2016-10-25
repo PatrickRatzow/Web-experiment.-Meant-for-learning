@@ -16,7 +16,7 @@ class Database {
     }
 
     public function login($username, $password) {
-        $passwordHashed = hash("sha256", $password);
+        $passwordHashed = $password;
         $query = self::$db->prepare("SELECT * FROM users WHERE username = '$username' AND password = '$passwordHashed'");
         if (!$query->execute()) {
             print_r($query->errorInfo());
@@ -50,7 +50,7 @@ class Database {
         if ($query->rowCount() > 0) {
             return "failure";
         }
-        $passwordHashed = hash("sha256", $password);
+        $passwordHashed = $password;
         $query = self::$db->prepare("INSERT INTO users (username, password) VALUES('$username', '$passwordHashed')");
         if (!$query->execute()) {
             print_r($query->errorInfo());
